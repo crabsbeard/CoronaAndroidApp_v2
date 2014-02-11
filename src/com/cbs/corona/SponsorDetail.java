@@ -15,7 +15,7 @@ public class SponsorDetail extends Activity{
 	SponsorAdapter s_adapter;
 	Intent p;
 	int position;
-	public void onCreateView(Bundle savedInstanceState){
+	public void onCreate(Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.detail_sponsor);
 		initFunc();
