@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CORONA</string>
+    <string name="action_settings">Settings</string>
+    <string name="tv_title_corona">CORONA-The Carnival</string>
+    <string name="corona">CORONA is the annual festival of BPIT, an extravaganza beyond words and description. The festival, started in year 2009, made a humble beginning but has been growing ever since. Over the years, it has seen performances by the likes of Rabbi Shergill, DJ Suketu, Juggy D, Faridkot, Parikrama, Nasha and many more. The enthusiastic crowd tapping their feet to vibrant music- this is the soul of Corona!\nThe festival attracts a 10 thousand strong crowd from various institutions all over the country in the span of two days. With a fusion of ingenious competitions and events, Corona provides the participants a solid platform to showcase their talent.</string>
+    <string name="gambhir_details"><b>GAMBHIR OPTICALS</b>\n\nB-1/17, Sector-17, Rohini\nDelhi-85\n\nContact-9891646593\n\n<b>Products</b>\n\nContact Lenses\nCompact Lenses\nGoggles\nBranded Sunglasses\nSpectacle Frames\nComplete eye testing</string>
+    <string name="lens"><b>Lens &amp; Light</b>\n\nShop No. 1, Plot No. 4 D-Block, Central Market\nPrashant Vihar, Opp. PVR\n New Delhi-85\n\nContact-9811047089, 9654442449\nPhone No.-011-27564975\n\n<b>Deals In</b>\n\nVarilux Progressive Lens\nBauch &amp; Lomb Contact Lens\n\nRay Ban\nJohnson &amp; Johnson Vision Care\nCiba Vision\nCarl Zeiss\n\n\n<b>Buy 1 Get 1 free on Sunglasses</b>\n<b>Contact Lens up to 20% off</b></string>
+    <string name="bake_club"><b>THE BAKE CLUB</b>\n\nC-1/161, Sector-11, Opposite CNG gas station Rohini\nDelhi-85\n\n<b>Products</b>\n\nCakes\nPastries\nPaties\nBiscuit\nGift item\nChocolates\nAll type of bakery\n\n<b>10% off on Cakes and Pastry</b></string>
+    <string name="theme">\n <b>\"Carnival- Yesterday is History, Tomorrow is mystery, Today is a gift\"</b> \n The idea of college festivals have garnered considerable currency in popularity over the last decade or so. With every festival trying to outdo the other in this prospect, a drift has occurred where colleges are moving away from the actual idea of festivals- \'a Merry Milieu\'. This further causes lack of originality, causing \'trends\' to dictate what needs to happen.\nReflecting upon it, this year CORONA is premised on the theme \'CARNIVAL\'. We build up on the essence of a Carnival- a festivity to come together and have a good time! We are sure that CORONA will emulate and surpass the successes of its predecessors, both in magnitude and ideas.</string>
+    <string name="bake_club_title">VR BAKE CLUB</string>
+    <string name="lens_title">Lens &amp; Light</string>
+    <string name="coupon_gambhir"><b>Gambhir Opticals</b>\n25% off on contact lens</string>
+    <string name="coupon_apsara_Bakers"><b>Apsara Bakers</b>\n10% off on Icreams and Shakes</string>
+</resources>

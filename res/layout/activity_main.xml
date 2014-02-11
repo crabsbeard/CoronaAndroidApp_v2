@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="12dp"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:paddingTop="12dp"
+    android:background="#fff"
+    tools:context=".MainActivity" >
+    
+    <ImageView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_logo"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/iv_logo"
+        android:padding="12dp"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/tv_title_corona"
+        android:text="@string/tv_title_corona"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/iv_logo"
+        android:paddingBottom="12dp"
+        android:textColor="#fffcfaff"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="12dp"
+        android:background="#ffff4538"
+        android:drawablePadding="8dp"
+        />
+
+   <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridView"
+        android:numColumns="2"
+        android:paddingTop="24dp"
+        android:horizontalSpacing="8dp"
+        android:verticalSpacing="8dp"
+        android:layout_below="@id/tv_title_corona"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+
+       />
+
+</RelativeLayout>

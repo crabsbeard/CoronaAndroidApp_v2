@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#34495e"
+    >
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/sv_about"
+        >
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/tv_about_title"
+                android:text="Corona"
+                android:textSize="24sp"
+                android:textColor="@color/white"
+                android:padding="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/iv_corona"
+                android:src="@drawable/img_fest"
+                android:padding="12dp"
+                android:layout_below="@+id/tv_about_title"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/corona"
+                android:id="@+id/tv_corona_details"
+                android:padding="12dp"
+                android:textColor="#fffcfaff"
+                android:layout_below="@+id/iv_corona"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/tv_about_theme"
+                android:text="Theme"
+                android:textSize="24sp"
+                android:textColor="@color/white"
+                android:padding="8dp"
+                android:layout_below="@+id/tv_corona_details"
+                android:layout_centerHorizontal="true" />
+
+            <ImageView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/iv_theme"
+                android:src="@drawable/img_theme"
+                android:padding="12dp"
+                android:layout_below="@+id/tv_about_theme"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/theme"
+                android:id="@+id/tv_corona_theme"
+                android:padding="12dp"
+                android:textColor="#fffcfaff"
+                android:layout_below="@+id/iv_theme"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+        </ScrollView>
+
+</RelativeLayout>

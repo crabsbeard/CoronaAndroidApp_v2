@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#34495e"
+    >
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tv_about_dev"
+        android:text="About Developer"
+        android:layout_marginTop="12dp"
+        android:textColor="#fffcfaff"
+        android:textSize="20dp"
+
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_aditya"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="12dp"
+        android:layout_below="@+id/tv_about_dev"
+        android:src="@drawable/aditya" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/tv_aditya"
+        android:layout_below="@+id/iv_aditya"
+        android:text="Aditya Narayan"
+        android:paddingTop="24dp"
+        android:textSize="16dp"
+        android:textColor="#fffcfaff"
+        android:layout_centerHorizontal="true"
+        />
+
+    <GridView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/gridView_icons"
+        android:numColumns="2"
+        android:paddingTop="24dp"
+        android:horizontalSpacing="0dp"
+        android:verticalSpacing="8dp"
+        android:layout_below="@id/tv_aditya"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:stretchMode="spacingWidthUniform"
+        android:columnWidth="8dp"
+
+        />
+
+
+</RelativeLayout>
