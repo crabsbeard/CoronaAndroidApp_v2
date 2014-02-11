@@ -2,8 +2,6 @@ package com.cbs.corona;
 
 import java.util.ArrayList;
 
-import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
-
 import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentManager;
@@ -59,6 +57,7 @@ public class HomeActivity extends Activity {
         }
         
         private void setSlider(){
+        	/*
         	SlidingMenu menu;
         	menu = new SlidingMenu(this);
         	menu.setMode(SlidingMenu.LEFT);
@@ -70,7 +69,7 @@ public class HomeActivity extends Activity {
         	menu.setShadowWidthRes(R.dimen.shadow_width);
             menu.setShadowDrawable(R.drawable.shadow);
             menu.setBehindOffsetRes(R.dimen.slidingmenu_offset);
-        	
+        	*/
         	
         }
 

@@ -9,109 +9,6 @@ package com.cbs.corona;
 
 public final class R {
     public static final class attr {
-        /** 
-    The size of the ad. It must be one of BANNER, FULL_BANNER, LEADERBOARD,
-    MEDIUM_RECTANGLE, SMART_BANNER, WIDE_SKYSCRAPER, or
-    &lt;width&gt;x&lt;height&gt;.
-    
-         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int adSize=0x7f010000;
-        /** 
-    A comma-separated list of the supported ad sizes. The sizes must be one of
-    BANNER, FULL_BANNER, LEADERBOARD, MEDIUM_RECTANGLE, SMART_BANNER,
-    WIDE_SKYSCRAPER, or &lt;width&gt;x&lt;height&gt;.
-    
-         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int adSizes=0x7f010001;
-        /**  The ad unit ID. 
-         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int adUnitId=0x7f010002;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int behindOffset=0x7f010014;
-        /** <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int behindScrollScale=0x7f010016;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int behindWidth=0x7f010015;
-        /** <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int cameraBearing=0x7f010004;
-        /** <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int cameraTargetLat=0x7f010005;
-        /** <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int cameraTargetLng=0x7f010006;
-        /** <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int cameraTilt=0x7f010007;
-        /** <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int cameraZoom=0x7f010008;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -119,7 +16,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int column_count_landscape=0x7f010020;
+        public static final int column_count_landscape=0x7f010001;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -127,23 +24,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int column_count_portrait=0x7f01001f;
-        /** <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int fadeDegree=0x7f01001c;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int fadeEnabled=0x7f01001b;
+        public static final int column_count_portrait=0x7f010000;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -153,7 +34,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int grid_paddingBottom=0x7f010025;
+        public static final int grid_paddingBottom=0x7f010006;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -163,7 +44,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int grid_paddingLeft=0x7f010022;
+        public static final int grid_paddingLeft=0x7f010003;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -173,7 +54,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int grid_paddingRight=0x7f010023;
+        public static final int grid_paddingRight=0x7f010004;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -183,7 +64,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int grid_paddingTop=0x7f010024;
+        public static final int grid_paddingTop=0x7f010005;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -193,170 +74,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int item_margin=0x7f010021;
-        /** <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>none</code></td><td>0</td><td></td></tr>
-<tr><td><code>normal</code></td><td>1</td><td></td></tr>
-<tr><td><code>satellite</code></td><td>2</td><td></td></tr>
-<tr><td><code>terrain</code></td><td>3</td><td></td></tr>
-<tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
-</table>
-         */
-        public static final int mapType=0x7f010003;
-        /** <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>left</code></td><td>0</td><td></td></tr>
-<tr><td><code>right</code></td><td>1</td><td></td></tr>
-</table>
-         */
-        public static final int mode=0x7f010011;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int selectorDrawable=0x7f01001e;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int selectorEnabled=0x7f01001d;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int shadowDrawable=0x7f010019;
-        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int shadowWidth=0x7f01001a;
-        /** <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>margin</code></td><td>0</td><td></td></tr>
-<tr><td><code>fullscreen</code></td><td>1</td><td></td></tr>
-</table>
-         */
-        public static final int touchModeAbove=0x7f010017;
-        /** <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>margin</code></td><td>0</td><td></td></tr>
-<tr><td><code>fullscreen</code></td><td>1</td><td></td></tr>
-</table>
-         */
-        public static final int touchModeBehind=0x7f010018;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int uiCompass=0x7f010009;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int uiRotateGestures=0x7f01000a;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int uiScrollGestures=0x7f01000b;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int uiTiltGestures=0x7f01000c;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int uiZoomControls=0x7f01000d;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int uiZoomGestures=0x7f01000e;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int useViewLifecycle=0x7f01000f;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int viewAbove=0x7f010012;
-        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-         */
-        public static final int viewBehind=0x7f010013;
-        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-         */
-        public static final int zOrderOnTop=0x7f010010;
+        public static final int item_margin=0x7f010002;
     }
     public static final class color {
-        public static final int common_action_bar_splitter=0x7f040009;
-        /**  Sign-in Button Colors 
-         */
-        public static final int common_signin_btn_dark_text_default=0x7f040000;
-        public static final int common_signin_btn_dark_text_disabled=0x7f040002;
-        public static final int common_signin_btn_dark_text_focused=0x7f040003;
-        public static final int common_signin_btn_dark_text_pressed=0x7f040001;
-        public static final int common_signin_btn_default_background=0x7f040008;
-        public static final int common_signin_btn_light_text_default=0x7f040004;
-        public static final int common_signin_btn_light_text_disabled=0x7f040006;
-        public static final int common_signin_btn_light_text_focused=0x7f040007;
-        public static final int common_signin_btn_light_text_pressed=0x7f040005;
-        public static final int common_signin_btn_text_dark=0x7f04000c;
-        public static final int common_signin_btn_text_light=0x7f04000d;
-        public static final int default_box=0x7f04000a;
-        public static final int white=0x7f04000b;
+        public static final int default_box=0x7f040000;
+        public static final int white=0x7f040001;
     }
     public static final class dimen {
         /**  Example customization of dimensions originally defined in res/values/dimens.xml
@@ -367,10 +89,10 @@ containing a value of this type.
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static final int activity_horizontal_margin=0x7f080003;
-        public static final int list_padding=0x7f080001;
-        public static final int shadow_width=0x7f080002;
-        public static final int slidingmenu_offset=0x7f080000;
+        public static final int activity_horizontal_margin=0x7f050003;
+        public static final int list_padding=0x7f050001;
+        public static final int shadow_width=0x7f050002;
+        public static final int slidingmenu_offset=0x7f050000;
     }
     public static final class drawable {
         public static final int a=0x7f020000;
@@ -381,132 +103,92 @@ containing a value of this type.
         public static final int basket=0x7f020005;
         public static final int bob=0x7f020006;
         public static final int c=0x7f020007;
-        public static final int common_signin_btn_icon_dark=0x7f020008;
-        public static final int common_signin_btn_icon_disabled_dark=0x7f020009;
-        public static final int common_signin_btn_icon_disabled_focus_dark=0x7f02000a;
-        public static final int common_signin_btn_icon_disabled_focus_light=0x7f02000b;
-        public static final int common_signin_btn_icon_disabled_light=0x7f02000c;
-        public static final int common_signin_btn_icon_focus_dark=0x7f02000d;
-        public static final int common_signin_btn_icon_focus_light=0x7f02000e;
-        public static final int common_signin_btn_icon_light=0x7f02000f;
-        public static final int common_signin_btn_icon_normal_dark=0x7f020010;
-        public static final int common_signin_btn_icon_normal_light=0x7f020011;
-        public static final int common_signin_btn_icon_pressed_dark=0x7f020012;
-        public static final int common_signin_btn_icon_pressed_light=0x7f020013;
-        public static final int common_signin_btn_text_dark=0x7f020014;
-        public static final int common_signin_btn_text_disabled_dark=0x7f020015;
-        public static final int common_signin_btn_text_disabled_focus_dark=0x7f020016;
-        public static final int common_signin_btn_text_disabled_focus_light=0x7f020017;
-        public static final int common_signin_btn_text_disabled_light=0x7f020018;
-        public static final int common_signin_btn_text_focus_dark=0x7f020019;
-        public static final int common_signin_btn_text_focus_light=0x7f02001a;
-        public static final int common_signin_btn_text_light=0x7f02001b;
-        public static final int common_signin_btn_text_normal_dark=0x7f02001c;
-        public static final int common_signin_btn_text_normal_light=0x7f02001d;
-        public static final int common_signin_btn_text_pressed_dark=0x7f02001e;
-        public static final int common_signin_btn_text_pressed_light=0x7f02001f;
-        public static final int d=0x7f020020;
-        public static final int dj=0x7f020021;
-        public static final int e=0x7f020022;
-        public static final int f=0x7f020023;
-        public static final int facebook_link=0x7f020024;
-        public static final int fash=0x7f020025;
-        public static final int gambhir=0x7f020026;
-        public static final int gd=0x7f020027;
-        public static final int google_link=0x7f020028;
-        public static final int i=0x7f020029;
-        public static final int ic_about=0x7f02002a;
-        public static final int ic_associates=0x7f02002b;
-        public static final int ic_contact=0x7f02002c;
-        public static final int ic_coupons=0x7f02002d;
-        public static final int ic_dev=0x7f02002e;
-        public static final int ic_events=0x7f02002f;
-        public static final int ic_gallery=0x7f020030;
-        public static final int ic_launcher=0x7f020031;
-        public static final int ic_logo=0x7f020032;
-        public static final int ic_plusone_medium_off_client=0x7f020033;
-        public static final int ic_plusone_small_off_client=0x7f020034;
-        public static final int ic_plusone_standard_off_client=0x7f020035;
-        public static final int ic_plusone_tall_off_client=0x7f020036;
-        public static final int ic_venue=0x7f020037;
-        public static final int img_fest=0x7f020038;
-        public static final int img_theme=0x7f020039;
-        public static final int j=0x7f02003a;
-        public static final int k=0x7f02003b;
-        public static final int l=0x7f02003c;
-        public static final int lens=0x7f02003d;
-        public static final int m=0x7f02003e;
-        public static final int n=0x7f02003f;
-        public static final int o=0x7f020040;
-        public static final int p=0x7f020041;
-        public static final int prog=0x7f020042;
-        public static final int q=0x7f020043;
-        public static final int r=0x7f020044;
-        public static final int rectangle=0x7f020045;
-        public static final int robo=0x7f020046;
-        public static final int s=0x7f020047;
-        public static final int shadow=0x7f020048;
-        public static final int shadowright=0x7f020049;
-        public static final int star=0x7f02004a;
-        public static final int street=0x7f02004b;
-        public static final int t=0x7f02004c;
-        public static final int tressure=0x7f02004d;
-        public static final int u=0x7f02004e;
+        public static final int d=0x7f020008;
+        public static final int dj=0x7f020009;
+        public static final int e=0x7f02000a;
+        public static final int f=0x7f02000b;
+        public static final int facebook_link=0x7f02000c;
+        public static final int fash=0x7f02000d;
+        public static final int gambhir=0x7f02000e;
+        public static final int gd=0x7f02000f;
+        public static final int google_link=0x7f020010;
+        public static final int i=0x7f020011;
+        public static final int ic_about=0x7f020012;
+        public static final int ic_associates=0x7f020013;
+        public static final int ic_contact=0x7f020014;
+        public static final int ic_coupons=0x7f020015;
+        public static final int ic_dev=0x7f020016;
+        public static final int ic_events=0x7f020017;
+        public static final int ic_gallery=0x7f020018;
+        public static final int ic_launcher=0x7f020019;
+        public static final int ic_logo=0x7f02001a;
+        public static final int ic_venue=0x7f02001b;
+        public static final int img_fest=0x7f02001c;
+        public static final int img_theme=0x7f02001d;
+        public static final int j=0x7f02001e;
+        public static final int k=0x7f02001f;
+        public static final int l=0x7f020020;
+        public static final int lens=0x7f020021;
+        public static final int m=0x7f020022;
+        public static final int n=0x7f020023;
+        public static final int o=0x7f020024;
+        public static final int p=0x7f020025;
+        public static final int prog=0x7f020026;
+        public static final int q=0x7f020027;
+        public static final int r=0x7f020028;
+        public static final int rectangle=0x7f020029;
+        public static final int robo=0x7f02002a;
+        public static final int s=0x7f02002b;
+        public static final int shadow=0x7f02002c;
+        public static final int shadowright=0x7f02002d;
+        public static final int star=0x7f02002e;
+        public static final int street=0x7f02002f;
+        public static final int t=0x7f020030;
+        public static final int tressure=0x7f020031;
+        public static final int u=0x7f020032;
     }
     public static final class id {
-        public static final int button1=0x7f050026;
-        public static final int fragment_grid_view=0x7f05001b;
-        public static final int full_image_view=0x7f050027;
-        public static final int fullscreen=0x7f050008;
-        public static final int gridView=0x7f05000c;
-        public static final int gridView_icons=0x7f050023;
-        public static final int hybrid=0x7f050004;
-        public static final int imageView1=0x7f05002f;
-        public static final int iv_aditya=0x7f050021;
-        public static final int iv_corona=0x7f050016;
-        public static final int iv_event_icons=0x7f050012;
-        public static final int iv_logo=0x7f05000a;
-        public static final int iv_menu_icons=0x7f050028;
-        public static final int iv_nav_item=0x7f05002d;
-        public static final int iv_sponsor_det=0x7f05000d;
-        public static final int iv_theme=0x7f050019;
-        public static final int left=0x7f050005;
-        public static final int lv_menu=0x7f05002c;
-        public static final int map=0x7f05002b;
-        public static final int margin=0x7f050007;
-        public static final int none=0x7f050000;
-        public static final int normal=0x7f050001;
-        public static final int rel_layout=0x7f05002a;
-        public static final int right=0x7f050006;
-        public static final int satellite=0x7f050002;
-        public static final int selected_view=0x7f050009;
-        public static final int slidingmenumain=0x7f050030;
-        public static final int sponsor_image_view=0x7f05000f;
-        public static final int sponsor_title=0x7f050011;
-        public static final int staggered_grid_view=0x7f050025;
-        public static final int staggered_gv_events=0x7f050024;
-        public static final int sv_about=0x7f050014;
-        public static final int terrain=0x7f050003;
-        public static final int textView1=0x7f05001c;
-        public static final int textView2=0x7f05001d;
-        public static final int textView3=0x7f05001e;
-        public static final int textView4=0x7f05001f;
-        public static final int tv_about_dev=0x7f050020;
-        public static final int tv_about_theme=0x7f050018;
-        public static final int tv_about_title=0x7f050015;
-        public static final int tv_aditya=0x7f050022;
-        public static final int tv_corona_details=0x7f050017;
-        public static final int tv_corona_theme=0x7f05001a;
-        public static final int tv_event_text=0x7f050013;
-        public static final int tv_nav_item=0x7f05002e;
-        public static final int tv_sponsor_detail=0x7f050010;
-        public static final int tv_title=0x7f050029;
-        public static final int tv_title_corona=0x7f05000b;
-        public static final int tv_title_sponsor=0x7f05000e;
+        public static final int button1=0x7f09001c;
+        public static final int fragment_grid_view=0x7f090011;
+        public static final int full_image_view=0x7f09001d;
+        public static final int gridView=0x7f090002;
+        public static final int gridView_icons=0x7f090019;
+        public static final int imageView1=0x7f090025;
+        public static final int iv_aditya=0x7f090017;
+        public static final int iv_corona=0x7f09000c;
+        public static final int iv_event_icons=0x7f090008;
+        public static final int iv_logo=0x7f090000;
+        public static final int iv_menu_icons=0x7f09001e;
+        public static final int iv_nav_item=0x7f090023;
+        public static final int iv_sponsor_det=0x7f090003;
+        public static final int iv_theme=0x7f09000f;
+        public static final int lv_menu=0x7f090022;
+        public static final int map=0x7f090021;
+        public static final int rel_layout=0x7f090020;
+        public static final int sponsor_image_view=0x7f090005;
+        public static final int sponsor_title=0x7f090007;
+        public static final int staggered_grid_view=0x7f09001b;
+        public static final int staggered_gv_events=0x7f09001a;
+        public static final int sv_about=0x7f09000a;
+        public static final int textView1=0x7f090012;
+        public static final int textView2=0x7f090013;
+        public static final int textView3=0x7f090014;
+        public static final int textView4=0x7f090015;
+        public static final int tv_about_dev=0x7f090016;
+        public static final int tv_about_theme=0x7f09000e;
+        public static final int tv_about_title=0x7f09000b;
+        public static final int tv_aditya=0x7f090018;
+        public static final int tv_corona_details=0x7f09000d;
+        public static final int tv_corona_theme=0x7f090010;
+        public static final int tv_event_text=0x7f090009;
+        public static final int tv_nav_item=0x7f090024;
+        public static final int tv_sponsor_detail=0x7f090006;
+        public static final int tv_title=0x7f09001f;
+        public static final int tv_title_corona=0x7f090001;
+        public static final int tv_title_sponsor=0x7f090004;
     }
     public static final class integer {
-        public static final int google_play_services_version=0x7f070000;
-        public static final int num_cols=0x7f070001;
+        public static final int num_cols=0x7f060000;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -526,115 +208,20 @@ containing a value of this type.
         public static final int maps_google=0x7f03000e;
         public static final int menu_frame=0x7f03000f;
         public static final int navigation_menu_item=0x7f030010;
-        public static final int slidingmenumain=0x7f030011;
     }
     public static final class string {
-        public static final int action_settings=0x7f06001b;
-        public static final int app_name=0x7f06001a;
-        /**   Title for notification shown when GooglePlayServices needs to be
-        enabled for a application to work. [CHAR LIMIT=70] 
-         */
-        public static final int auth_client_needs_enabling_title=0x7f060015;
-        /**   Title for notification shown when GooglePlayServices needs to be
-        installed for a application to work. [CHAR LIMIT=70] 
-         */
-        public static final int auth_client_needs_installation_title=0x7f060016;
-        /**   Title for notification shown when GooglePlayServices needs to be
-        udpated for a application to work. [CHAR LIMIT=70] 
-         */
-        public static final int auth_client_needs_update_title=0x7f060017;
-        /**   Title for notification shown when GooglePlayServices is unavailable [CHAR LIMIT=42] 
-         */
-        public static final int auth_client_play_services_err_notification_msg=0x7f060018;
-        /**   Requested by string saying which app requested the notification. [CHAR LIMIT=42] 
-         */
-        public static final int auth_client_requested_by_msg=0x7f060019;
-        /**   Title for notification shown when a bad version of GooglePlayServices
-        has been installed and needs correction for an application to work.
-        [CHAR LIMIT=70] 
-         */
-        public static final int auth_client_using_bad_version_title=0x7f060014;
-        public static final int bake_club=0x7f060020;
-        public static final int bake_club_title=0x7f060022;
-        /**  Button in confirmation dialog to enable Google Play services.  Clicking it
-        will direct user to application settings of Google Play services where they
-        can enable it [CHAR LIMIT=40] 
-         */
-        public static final int common_google_play_services_enable_button=0x7f060006;
-        /**  Message in confirmation dialog informing user they need to enable
-        Google Play services in application settings [CHAR LIMIT=NONE] 
-         */
-        public static final int common_google_play_services_enable_text=0x7f060005;
-        /**  Title of confirmation dialog informing user they need to enable
-        Google Play services in application settings [CHAR LIMIT=40] 
-         */
-        public static final int common_google_play_services_enable_title=0x7f060004;
-        /**  Button in confirmation dialog for installing Google Play services [CHAR LIMIT=40] 
-         */
-        public static final int common_google_play_services_install_button=0x7f060003;
-        /**  (For phones) Message in confirmation dialog informing user that
-        they need to install Google Play services (from Play Store) [CHAR LIMIT=NONE] 
-         */
-        public static final int common_google_play_services_install_text_phone=0x7f060001;
-        /**  (For tablets) Message in confirmation dialog informing user that
-        they need to install Google Play services (from Play Store) [CHAR LIMIT=NONE] 
-         */
-        public static final int common_google_play_services_install_text_tablet=0x7f060002;
-        /**  Title of confirmation dialog informing user that they need to install
-        Google Play services (from Play Store) [CHAR LIMIT=40] 
-         */
-        public static final int common_google_play_services_install_title=0x7f060000;
-        /**  Message in confirmation dialog informing the user that they provided an invalid account. [CHAR LIMIT=NONE] 
-         */
-        public static final int common_google_play_services_invalid_account_text=0x7f06000c;
-        /**  Title of confirmation dialog informing the user that they provided an invalid account. [CHAR LIMIT=40] 
-         */
-        public static final int common_google_play_services_invalid_account_title=0x7f06000b;
-        /**  Message in confirmation dialog informing the user that a network error occurred. [CHAR LIMIT=NONE] 
-         */
-        public static final int common_google_play_services_network_error_text=0x7f06000a;
-        /**  Title of confirmation dialog informing the user that a network error occurred. [CHAR LIMIT=40] 
-         */
-        public static final int common_google_play_services_network_error_title=0x7f060009;
-        /**  Message in confirmation dialog informing user there is an unknown issue in Google Play
-        services [CHAR LIMIT=NONE] 
-         */
-        public static final int common_google_play_services_unknown_issue=0x7f06000d;
-        /**  Message in confirmation dialog informing user that date on the device is not correct,
-    causing certificate checks to fail. [CHAR LIMIT=NONE] 
-         */
-        public static final int common_google_play_services_unsupported_date_text=0x7f060010;
-        /**  Message in confirmation dialog informing user that Google Play services is not supported on their device [CHAR LIMIT=NONE] 
-         */
-        public static final int common_google_play_services_unsupported_text=0x7f06000f;
-        /**  Title of confirmation dialog informing user that Google Play services is not supported on their device [CHAR LIMIT=40] 
-         */
-        public static final int common_google_play_services_unsupported_title=0x7f06000e;
-        /**  Button in confirmation dialog for updating Google Play services [CHAR LIMIT=40] 
-         */
-        public static final int common_google_play_services_update_button=0x7f060011;
-        /**  Message in confirmation dialog informing user that they need to update
-        Google Play services (from Play Store) [CHAR LIMIT=NONE] 
-         */
-        public static final int common_google_play_services_update_text=0x7f060008;
-        /**  Title of confirmation dialog informing user that they need to update
-        Google Play services (from Play Store) [CHAR LIMIT=40] 
-         */
-        public static final int common_google_play_services_update_title=0x7f060007;
-        /**  Sign-in button text [CHAR LIMIT=15] 
-         */
-        public static final int common_signin_button_text=0x7f060012;
-        /**  Long form sign-in button text [CHAR LIMIT=30] 
-         */
-        public static final int common_signin_button_text_long=0x7f060013;
-        public static final int corona=0x7f06001d;
-        public static final int coupon_apsara_Bakers=0x7f060025;
-        public static final int coupon_gambhir=0x7f060024;
-        public static final int gambhir_details=0x7f06001e;
-        public static final int lens=0x7f06001f;
-        public static final int lens_title=0x7f060023;
-        public static final int theme=0x7f060021;
-        public static final int tv_title_corona=0x7f06001c;
+        public static final int action_settings=0x7f070001;
+        public static final int app_name=0x7f070000;
+        public static final int bake_club=0x7f070006;
+        public static final int bake_club_title=0x7f070008;
+        public static final int corona=0x7f070003;
+        public static final int coupon_apsara_Bakers=0x7f07000b;
+        public static final int coupon_gambhir=0x7f07000a;
+        public static final int gambhir_details=0x7f070004;
+        public static final int lens=0x7f070005;
+        public static final int lens_title=0x7f070009;
+        public static final int theme=0x7f070007;
+        public static final int tv_title_corona=0x7f070002;
     }
     public static final class style {
         /** 
@@ -649,565 +236,9 @@ containing a value of this type.
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f090000;
+        public static final int AppBaseTheme=0x7f080000;
     }
     public static final class styleable {
-        /** Attributes that can be used with a AdsAttrs.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #AdsAttrs_adSize com.cbs.corona:adSize}</code></td><td>
-    The size of the ad.</td></tr>
-           <tr><td><code>{@link #AdsAttrs_adSizes com.cbs.corona:adSizes}</code></td><td>
-    A comma-separated list of the supported ad sizes.</td></tr>
-           <tr><td><code>{@link #AdsAttrs_adUnitId com.cbs.corona:adUnitId}</code></td><td> The ad unit ID.</td></tr>
-           </table>
-           @see #AdsAttrs_adSize
-           @see #AdsAttrs_adSizes
-           @see #AdsAttrs_adUnitId
-         */
-        public static final int[] AdsAttrs = {
-            0x7f010000, 0x7f010001, 0x7f010002
-        };
-        /**
-          <p>
-          @attr description
-          
-    The size of the ad. It must be one of BANNER, FULL_BANNER, LEADERBOARD,
-    MEDIUM_RECTANGLE, SMART_BANNER, WIDE_SKYSCRAPER, or
-    &lt;width&gt;x&lt;height&gt;.
-    
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.cbs.corona:adSize
-        */
-        public static final int AdsAttrs_adSize = 0;
-        /**
-          <p>
-          @attr description
-          
-    A comma-separated list of the supported ad sizes. The sizes must be one of
-    BANNER, FULL_BANNER, LEADERBOARD, MEDIUM_RECTANGLE, SMART_BANNER,
-    WIDE_SKYSCRAPER, or &lt;width&gt;x&lt;height&gt;.
-    
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.cbs.corona:adSizes
-        */
-        public static final int AdsAttrs_adSizes = 1;
-        /**
-          <p>
-          @attr description
-           The ad unit ID. 
-
-
-          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          <p>This is a private symbol.
-          @attr name com.cbs.corona:adUnitId
-        */
-        public static final int AdsAttrs_adUnitId = 2;
-        /** Attributes that can be used with a MapAttrs.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #MapAttrs_cameraBearing com.cbs.corona:cameraBearing}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTargetLat com.cbs.corona:cameraTargetLat}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTargetLng com.cbs.corona:cameraTargetLng}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraTilt com.cbs.corona:cameraTilt}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_cameraZoom com.cbs.corona:cameraZoom}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_mapType com.cbs.corona:mapType}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiCompass com.cbs.corona:uiCompass}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiRotateGestures com.cbs.corona:uiRotateGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiScrollGestures com.cbs.corona:uiScrollGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiTiltGestures com.cbs.corona:uiTiltGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiZoomControls com.cbs.corona:uiZoomControls}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_uiZoomGestures com.cbs.corona:uiZoomGestures}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_useViewLifecycle com.cbs.corona:useViewLifecycle}</code></td><td></td></tr>
-           <tr><td><code>{@link #MapAttrs_zOrderOnTop com.cbs.corona:zOrderOnTop}</code></td><td></td></tr>
-           </table>
-           @see #MapAttrs_cameraBearing
-           @see #MapAttrs_cameraTargetLat
-           @see #MapAttrs_cameraTargetLng
-           @see #MapAttrs_cameraTilt
-           @see #MapAttrs_cameraZoom
-           @see #MapAttrs_mapType
-           @see #MapAttrs_uiCompass
-           @see #MapAttrs_uiRotateGestures
-           @see #MapAttrs_uiScrollGestures
-           @see #MapAttrs_uiTiltGestures
-           @see #MapAttrs_uiZoomControls
-           @see #MapAttrs_uiZoomGestures
-           @see #MapAttrs_useViewLifecycle
-           @see #MapAttrs_zOrderOnTop
-         */
-        public static final int[] MapAttrs = {
-            0x7f010003, 0x7f010004, 0x7f010005, 0x7f010006,
-            0x7f010007, 0x7f010008, 0x7f010009, 0x7f01000a,
-            0x7f01000b, 0x7f01000c, 0x7f01000d, 0x7f01000e,
-            0x7f01000f, 0x7f010010
-        };
-        /**
-          <p>This symbol is the offset where the {@link com.cbs.corona.R.attr#cameraBearing}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.cbs.corona:cameraBearing
-        */
-        public static final int MapAttrs_cameraBearing = 1;
-        /**
-          <p>This symbol is the offset where the {@link com.cbs.corona.R.attr#cameraTargetLat}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.cbs.corona:cameraTargetLat
-        */
-        public static final int MapAttrs_cameraTargetLat = 2;
-        /**
-          <p>This symbol is the offset where the {@link com.cbs.corona.R.attr#cameraTargetLng}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.cbs.corona:cameraTargetLng
-        */
-        public static final int MapAttrs_cameraTargetLng = 3;
-        /**
-          <p>This symbol is the offset where the {@link com.cbs.corona.R.attr#cameraTilt}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.cbs.corona:cameraTilt
-        */
-        public static final int MapAttrs_cameraTilt = 4;
-        /**
-          <p>This symbol is the offset where the {@link com.cbs.corona.R.attr#cameraZoom}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.cbs.corona:cameraZoom
-        */
-        public static final int MapAttrs_cameraZoom = 5;
-        /**
-          <p>This symbol is the offset where the {@link com.cbs.corona.R.attr#mapType}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>none</code></td><td>0</td><td></td></tr>
-<tr><td><code>normal</code></td><td>1</td><td></td></tr>
-<tr><td><code>satellite</code></td><td>2</td><td></td></tr>
-<tr><td><code>terrain</code></td><td>3</td><td></td></tr>
-<tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
-</table>
-          @attr name com.cbs.corona:mapType
-        */
-        public static final int MapAttrs_mapType = 0;
-        /**
-          <p>This symbol is the offset where the {@link com.cbs.corona.R.attr#uiCompass}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.cbs.corona:uiCompass
-        */
-        public static final int MapAttrs_uiCompass = 6;
-        /**
-          <p>This symbol is the offset where the {@link com.cbs.corona.R.attr#uiRotateGestures}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.cbs.corona:uiRotateGestures
-        */
-        public static final int MapAttrs_uiRotateGestures = 7;
-        /**
-          <p>This symbol is the offset where the {@link com.cbs.corona.R.attr#uiScrollGestures}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.cbs.corona:uiScrollGestures
-        */
-        public static final int MapAttrs_uiScrollGestures = 8;
-        /**
-          <p>This symbol is the offset where the {@link com.cbs.corona.R.attr#uiTiltGestures}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.cbs.corona:uiTiltGestures
-        */
-        public static final int MapAttrs_uiTiltGestures = 9;
-        /**
-          <p>This symbol is the offset where the {@link com.cbs.corona.R.attr#uiZoomControls}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.cbs.corona:uiZoomControls
-        */
-        public static final int MapAttrs_uiZoomControls = 10;
-        /**
-          <p>This symbol is the offset where the {@link com.cbs.corona.R.attr#uiZoomGestures}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.cbs.corona:uiZoomGestures
-        */
-        public static final int MapAttrs_uiZoomGestures = 11;
-        /**
-          <p>This symbol is the offset where the {@link com.cbs.corona.R.attr#useViewLifecycle}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.cbs.corona:useViewLifecycle
-        */
-        public static final int MapAttrs_useViewLifecycle = 12;
-        /**
-          <p>This symbol is the offset where the {@link com.cbs.corona.R.attr#zOrderOnTop}
-          attribute's value can be found in the {@link #MapAttrs} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.cbs.corona:zOrderOnTop
-        */
-        public static final int MapAttrs_zOrderOnTop = 13;
-        /** Attributes that can be used with a SlidingMenu.
-           <p>Includes the following attributes:</p>
-           <table>
-           <colgroup align="left" />
-           <colgroup align="left" />
-           <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #SlidingMenu_behindOffset com.cbs.corona:behindOffset}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_behindScrollScale com.cbs.corona:behindScrollScale}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_behindWidth com.cbs.corona:behindWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_fadeDegree com.cbs.corona:fadeDegree}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_fadeEnabled com.cbs.corona:fadeEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_mode com.cbs.corona:mode}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_selectorDrawable com.cbs.corona:selectorDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_selectorEnabled com.cbs.corona:selectorEnabled}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_shadowDrawable com.cbs.corona:shadowDrawable}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_shadowWidth com.cbs.corona:shadowWidth}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_touchModeAbove com.cbs.corona:touchModeAbove}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_touchModeBehind com.cbs.corona:touchModeBehind}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_viewAbove com.cbs.corona:viewAbove}</code></td><td></td></tr>
-           <tr><td><code>{@link #SlidingMenu_viewBehind com.cbs.corona:viewBehind}</code></td><td></td></tr>
-           </table>
-           @see #SlidingMenu_behindOffset
-           @see #SlidingMenu_behindScrollScale
-           @see #SlidingMenu_behindWidth
-           @see #SlidingMenu_fadeDegree
-           @see #SlidingMenu_fadeEnabled
-           @see #SlidingMenu_mode
-           @see #SlidingMenu_selectorDrawable
-           @see #SlidingMenu_selectorEnabled
-           @see #SlidingMenu_shadowDrawable
-           @see #SlidingMenu_shadowWidth
-           @see #SlidingMenu_touchModeAbove
-           @see #SlidingMenu_touchModeBehind
-           @see #SlidingMenu_viewAbove
-           @see #SlidingMenu_viewBehind
-         */
-        public static final int[] SlidingMenu = {
-            0x7f010011, 0x7f010012, 0x7f010013, 0x7f010014,
-            0x7f010015, 0x7f010016, 0x7f010017, 0x7f010018,
-            0x7f010019, 0x7f01001a, 0x7f01001b, 0x7f01001c,
-            0x7f01001d, 0x7f01001e
-        };
-        /**
-          <p>This symbol is the offset where the {@link com.cbs.corona.R.attr#behindOffset}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.cbs.corona:behindOffset
-        */
-        public static final int SlidingMenu_behindOffset = 3;
-        /**
-          <p>This symbol is the offset where the {@link com.cbs.corona.R.attr#behindScrollScale}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.cbs.corona:behindScrollScale
-        */
-        public static final int SlidingMenu_behindScrollScale = 5;
-        /**
-          <p>This symbol is the offset where the {@link com.cbs.corona.R.attr#behindWidth}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.cbs.corona:behindWidth
-        */
-        public static final int SlidingMenu_behindWidth = 4;
-        /**
-          <p>This symbol is the offset where the {@link com.cbs.corona.R.attr#fadeDegree}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be a floating point value, such as "<code>1.2</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.cbs.corona:fadeDegree
-        */
-        public static final int SlidingMenu_fadeDegree = 11;
-        /**
-          <p>This symbol is the offset where the {@link com.cbs.corona.R.attr#fadeEnabled}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.cbs.corona:fadeEnabled
-        */
-        public static final int SlidingMenu_fadeEnabled = 10;
-        /**
-          <p>This symbol is the offset where the {@link com.cbs.corona.R.attr#mode}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>left</code></td><td>0</td><td></td></tr>
-<tr><td><code>right</code></td><td>1</td><td></td></tr>
-</table>
-          @attr name com.cbs.corona:mode
-        */
-        public static final int SlidingMenu_mode = 0;
-        /**
-          <p>This symbol is the offset where the {@link com.cbs.corona.R.attr#selectorDrawable}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.cbs.corona:selectorDrawable
-        */
-        public static final int SlidingMenu_selectorDrawable = 13;
-        /**
-          <p>This symbol is the offset where the {@link com.cbs.corona.R.attr#selectorEnabled}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.cbs.corona:selectorEnabled
-        */
-        public static final int SlidingMenu_selectorEnabled = 12;
-        /**
-          <p>This symbol is the offset where the {@link com.cbs.corona.R.attr#shadowDrawable}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.cbs.corona:shadowDrawable
-        */
-        public static final int SlidingMenu_shadowDrawable = 8;
-        /**
-          <p>This symbol is the offset where the {@link com.cbs.corona.R.attr#shadowWidth}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
-Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
-in (inches), mm (millimeters).
-<p>This may also be a reference to a resource (in the form
-"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
-theme attribute (in the form
-"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
-containing a value of this type.
-          @attr name com.cbs.corona:shadowWidth
-        */
-        public static final int SlidingMenu_shadowWidth = 9;
-        /**
-          <p>This symbol is the offset where the {@link com.cbs.corona.R.attr#touchModeAbove}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>margin</code></td><td>0</td><td></td></tr>
-<tr><td><code>fullscreen</code></td><td>1</td><td></td></tr>
-</table>
-          @attr name com.cbs.corona:touchModeAbove
-        */
-        public static final int SlidingMenu_touchModeAbove = 6;
-        /**
-          <p>This symbol is the offset where the {@link com.cbs.corona.R.attr#touchModeBehind}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be one of the following constant values.</p>
-<table>
-<colgroup align="left" />
-<colgroup align="left" />
-<colgroup align="left" />
-<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-<tr><td><code>margin</code></td><td>0</td><td></td></tr>
-<tr><td><code>fullscreen</code></td><td>1</td><td></td></tr>
-</table>
-          @attr name com.cbs.corona:touchModeBehind
-        */
-        public static final int SlidingMenu_touchModeBehind = 7;
-        /**
-          <p>This symbol is the offset where the {@link com.cbs.corona.R.attr#viewAbove}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.cbs.corona:viewAbove
-        */
-        public static final int SlidingMenu_viewAbove = 1;
-        /**
-          <p>This symbol is the offset where the {@link com.cbs.corona.R.attr#viewBehind}
-          attribute's value can be found in the {@link #SlidingMenu} array.
-
-
-          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
-or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
-          @attr name com.cbs.corona:viewBehind
-        */
-        public static final int SlidingMenu_viewBehind = 2;
         /** Attributes that can be used with a StaggeredGridView.
            <p>Includes the following attributes:</p>
            <table>
@@ -1231,8 +262,8 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
            @see #StaggeredGridView_item_margin
          */
         public static final int[] StaggeredGridView = {
-            0x7f01001f, 0x7f010020, 0x7f010021, 0x7f010022,
-            0x7f010023, 0x7f010024, 0x7f010025
+            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
+            0x7f010004, 0x7f010005, 0x7f010006
         };
         /**
           <p>This symbol is the offset where the {@link com.cbs.corona.R.attr#column_count_landscape}
