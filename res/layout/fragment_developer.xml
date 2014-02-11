@@ -15,30 +15,20 @@
         android:text="About Developer"
         android:layout_marginTop="12dp"
         android:textColor="#fffcfaff"
-        android:textSize="20dp"
+        android:textSize="14dp"
 
         />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/iv_aditya"
-        android:layout_centerHorizontal="true"
-        android:paddingTop="12dp"
-        android:layout_below="@+id/tv_about_dev"
-        android:src="@drawable/aditya" />
 
     <TextView
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
         android:id="@+id/tv_aditya"
-        android:layout_below="@+id/iv_aditya"
-        android:text="Aditya Narayan"
-        android:paddingTop="24dp"
-        android:textSize="16dp"
-        android:textColor="#fffcfaff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_about_dev"
         android:layout_centerHorizontal="true"
-        />
+        android:paddingTop="12dp"
+        android:text="Aditya Narayan"
+        android:textColor="#fffcfaff"
+        android:textSize="10dp" />
 
     <GridView
         android:layout_height="wrap_content"
@@ -48,7 +38,7 @@
         android:paddingTop="24dp"
         android:horizontalSpacing="0dp"
         android:verticalSpacing="8dp"
-        android:layout_below="@id/tv_aditya"
+        android:layout_below="@+id/tv_bpit"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:gravity="center"
@@ -57,5 +47,23 @@
 
         />
 
+    <TextView
+        android:id="@+id/tv_branch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_aditya"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        android:text="B.Tech(IT)" />
+
+    <TextView
+        android:id="@+id/tv_bpit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_branch"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        android:text="Bhagwan Parshuram Institute of Technology"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
 
 </RelativeLayout>
