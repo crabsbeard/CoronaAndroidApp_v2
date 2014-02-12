@@ -41,21 +41,9 @@ public class EventFragment extends Fragment{
         createList();
         gridSetup(rootView);
         hideScroll();
-        clickListener();
+        
     }
-    public void clickListener(){
 
-        gv.setOnItemClickListener(new OnItemClickListener(){
-
-            public void onItemClick(AdapterView<?> parent, View v, int position, long id ){
-
-                Intent i = new Intent(getActivity().getApplicationContext(), HomeActivity.class);
-                i.putExtra("id", position);
-                startActivity(i);
-            }
-        });
-
-   }
 
     public void gridSetup(View rootView){
         ga = new EventAdapter(getActivity().getApplicationContext(),list);
