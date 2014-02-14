@@ -18,14 +18,14 @@ public class SponsorAdapter extends BaseAdapter {
 
     public Integer[] mThumbIds = {
             R.drawable.gambhir,
-            R.drawable.bake_club_big, R.drawable.lens,
+            R.drawable.bake_club_big, R.drawable.lens, R.drawable.looks_fab_s
     };
     public Integer[] mDetailIds = {
-    		R.string.gambhir_details, R.string.bake_club, R.string.lens
+    		R.string.gambhir_details, R.string.bake_club, R.string.lens, R.string.looks_detail
     };
     public String[] mTitleIds = {
     	
-    		"Gambhir Opticals", "VR Bake Club", "Lens & Light"
+    		"Gambhir Opticals", "VR Bake Club", "Lens & Light", "Looks & Fab"
     };
 
     @Override

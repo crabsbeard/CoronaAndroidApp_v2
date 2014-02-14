@@ -435,23 +435,24 @@ containing a value of this type.
         public static final int k=0x7f02003b;
         public static final int l=0x7f02003c;
         public static final int lens=0x7f02003d;
-        public static final int m=0x7f02003e;
-        public static final int n=0x7f02003f;
-        public static final int o=0x7f020040;
-        public static final int p=0x7f020041;
-        public static final int prog=0x7f020042;
-        public static final int q=0x7f020043;
-        public static final int r=0x7f020044;
-        public static final int rectangle=0x7f020045;
-        public static final int robo=0x7f020046;
-        public static final int s=0x7f020047;
-        public static final int shadow=0x7f020048;
-        public static final int shadowright=0x7f020049;
-        public static final int star=0x7f02004a;
-        public static final int street=0x7f02004b;
-        public static final int t=0x7f02004c;
-        public static final int tressure=0x7f02004d;
-        public static final int u=0x7f02004e;
+        public static final int looks_fab_s=0x7f02003e;
+        public static final int m=0x7f02003f;
+        public static final int n=0x7f020040;
+        public static final int o=0x7f020041;
+        public static final int p=0x7f020042;
+        public static final int prog=0x7f020043;
+        public static final int q=0x7f020044;
+        public static final int r=0x7f020045;
+        public static final int rectangle=0x7f020046;
+        public static final int robo=0x7f020047;
+        public static final int s=0x7f020048;
+        public static final int shadow=0x7f020049;
+        public static final int shadowright=0x7f02004a;
+        public static final int star=0x7f02004b;
+        public static final int street=0x7f02004c;
+        public static final int t=0x7f02004d;
+        public static final int tressure=0x7f02004e;
+        public static final int u=0x7f02004f;
     }
     public static final class id {
         public static final int button1=0x7f050025;
@@ -554,7 +555,7 @@ containing a value of this type.
          */
         public static final int auth_client_using_bad_version_title=0x7f060014;
         public static final int bake_club=0x7f060020;
-        public static final int bake_club_title=0x7f060022;
+        public static final int bake_club_title=0x7f060023;
         /**  Button in confirmation dialog to enable Google Play services.  Clicking it
         will direct user to application settings of Google Play services where they
         can enable it [CHAR LIMIT=40] 
@@ -627,11 +628,12 @@ containing a value of this type.
          */
         public static final int common_signin_button_text_long=0x7f060013;
         public static final int corona=0x7f06001d;
-        public static final int coupon_apsara_Bakers=0x7f060025;
-        public static final int coupon_gambhir=0x7f060024;
+        public static final int coupon_apsara_Bakers=0x7f060026;
+        public static final int coupon_gambhir=0x7f060025;
         public static final int gambhir_details=0x7f06001e;
         public static final int lens=0x7f06001f;
-        public static final int lens_title=0x7f060023;
+        public static final int lens_title=0x7f060024;
+        public static final int looks_detail=0x7f060022;
         public static final int theme=0x7f060021;
         public static final int tv_title_corona=0x7f06001c;
     }

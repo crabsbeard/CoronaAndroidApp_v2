@@ -22,7 +22,11 @@ public class GoogleMaps extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.maps_google);
+		try{
 		initilizeMap();
+		}catch(Exception e){
+			e.printStackTrace();
+		}
 	}
 
 		
