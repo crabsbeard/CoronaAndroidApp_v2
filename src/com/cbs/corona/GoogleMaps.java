@@ -21,6 +21,7 @@ public class GoogleMaps extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		setTitle("Location Map");
 		setContentView(R.layout.maps_google);
 		try{
 		initilizeMap();

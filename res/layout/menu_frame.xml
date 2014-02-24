@@ -4,14 +4,13 @@
     android:layout_height="match_parent" 
     android:background="#ecf0f1"
     >
-  <ListView 
+  <GridView 
     android:layout_width="match_parent"
     android:layout_height="match_parent" 
     android:id="@+id/lv_menu"
     android:numColumns="1"
     >
-
-</ListView>
+</GridView>
     
 
 </RelativeLayout>

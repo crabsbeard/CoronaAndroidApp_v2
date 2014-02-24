@@ -18,6 +18,7 @@ public class AssociateFragment extends Fragment{
 	View rootView;
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
         this.rootView = inflater.inflate(R.layout.fragment_associates, container, false);
+        getActivity().setTitle("Associates");
         gridSetup();
         return rootView;
     }

@@ -27,6 +27,7 @@ public class VenueFragment extends Fragment{
 		@Override
 		public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
 	        this.rootView = inflater.inflate(R.layout.fragment_venue, container, false);
+	        getActivity().setTitle("Venue");
 	        clickListener();
 			return rootView;
 		}

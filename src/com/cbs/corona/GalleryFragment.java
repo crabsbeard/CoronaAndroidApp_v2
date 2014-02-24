@@ -24,6 +24,7 @@ public class GalleryFragment extends Fragment{
             Bundle savedInstanceState) {
  
         View rootView = inflater.inflate(R.layout.fragment_gallery, container, false);
+        getActivity().setTitle("Gallery");
         gridSetup(rootView);
         return rootView;
 	}

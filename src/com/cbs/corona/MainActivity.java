@@ -24,6 +24,7 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTitle("Corona-The Carnival");
         setContentView(R.layout.activity_main);
         initFunc();
     }
@@ -40,10 +41,15 @@ public class MainActivity extends Activity {
         gv.setOnItemClickListener(new OnItemClickListener(){
 
             public void onItemClick(AdapterView<?> parent, View v, int position, long id ){
-
+            	
+            	if(position==3){
+            		v.setEnabled(false);
+            	}
+            	else{
                 Intent i = new Intent(getApplicationContext(), HomeActivity.class);
                 i.putExtra("id", position);
                 startActivity(i);
+            	}
             }
         });
 

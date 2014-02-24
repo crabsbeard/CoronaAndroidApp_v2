@@ -2,7 +2,8 @@ package com.cbs.corona;
 
 import java.util.ArrayList;
 
-import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
+//import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
+//import com.jeremyfeinstein.slidingmenu.lib.app.SlidingActivity;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -10,7 +11,8 @@ import android.app.FragmentManager;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.widget.ListView;
+import android.widget.GridView;
+//import android.widget.ListView;
 
 
 
@@ -24,12 +26,13 @@ public class HomeActivity extends Activity {
         public void onCreate(Bundle savedInstanceState){
                 super.onCreate(savedInstanceState);
                 setContentView(R.layout.home_activity);
+                //setBehindContentView(R.layout.menu_frame);
                 initFunc();
         }
         
         MainActivity MaObject = new MainActivity();
         NavigationDrawerAdapter nda;
-        ListView lv;
+        GridView lv;
         int[] icons = MaObject.icons;
         String[]titles = MaObject.titles;
         ArrayList<Menu> list = new ArrayList<Menu>();
@@ -44,12 +47,12 @@ public class HomeActivity extends Activity {
         	}
         }
         
-        public void listSetup(){
-        	
-        	nda = new NavigationDrawerAdapter(this, list);
-        	lv = (ListView) findViewById(R.id.lv_menu);
-        	lv.setAdapter(nda);
-        }
+//        public void listSetup(){
+//        	
+//        	nda = new NavigationDrawerAdapter(this, list);
+//        	lv = (GridView) findViewById(R.id.lv_menu);
+//        	lv.setAdapter(nda);
+//        }
         
         public void initFunc(){
         
@@ -58,21 +61,21 @@ public class HomeActivity extends Activity {
             //listSetup();
         }
         
-        private void setSlider(){
-        	SlidingMenu menu;
-        	menu = new SlidingMenu(this);
-        	menu.setMode(SlidingMenu.LEFT);
-        	menu.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
-        	menu.setFadeDegree(0.5f);
-        	menu.attachToActivity(this, SlidingMenu.SLIDING_CONTENT);
-        	menu.setBehindWidth(350);
-        	menu.setMenu(R.layout.menu_frame);
-        	menu.setShadowWidthRes(R.dimen.shadow_width);
-            menu.setShadowDrawable(R.drawable.shadow);
-            menu.setBehindOffsetRes(R.dimen.slidingmenu_offset);
-        	
-        	
-        }
+//        private void setSlider(){
+//        	SlidingMenu menu;
+//        	menu = new SlidingMenu(this);
+//        	menu.setMode(SlidingMenu.LEFT);
+//        	menu.setTouchModeAbove(SlidingMenu.TOUCHMODE_FULLSCREEN);
+//        	menu.setFadeDegree(0.5f);
+//        	menu.attachToActivity(this, SlidingMenu.SLIDING_CONTENT);
+//        	menu.setBehindWidth(250);
+//        	menu.setMenu(R.layout.menu_frame);
+//        	menu.setShadowWidthRes(R.dimen.shadow_width);
+//            menu.setShadowDrawable(R.drawable.shadow);
+//            menu.setBehindOffsetRes(R.dimen.slidingmenu_offset);
+//        	
+//        	
+//        }
 
         private void MyLayoutInflater(){
             Intent intent = getIntent();

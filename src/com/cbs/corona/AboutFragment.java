@@ -19,8 +19,8 @@ public class AboutFragment extends Fragment{
     
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
         View rootView = inflater.inflate(R.layout.fragment_about, container, false);
+        getActivity().setTitle("About Corona");
         initFunctions(rootView);
-        
         return rootView;
 
     }

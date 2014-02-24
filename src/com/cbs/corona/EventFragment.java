@@ -29,6 +29,7 @@ public class EventFragment extends Fragment{
             Bundle savedInstanceState) {
  
         View rootView = inflater.inflate(R.layout.fragment_events, container, false);
+        getActivity().setTitle("Events");
         initFunc(rootView);
         return rootView;
 	}
